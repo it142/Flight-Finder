@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Flight Finder</string>
+    <string name="action_refresh">Search new flight</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="pref_nor_label">Number of Results</string>
+    <string name="pref_nor_key" translatable="false">nor</string>
+    <string name="pref_nor_default" translatable="false">10</string>
+
+    <string name="pref_temp_units_label">Temperature Units</string>
+    <string name="pref_temp_units_key" translatable="false">tempunit</string>
+    <string name="pref_temp_units_celcius" translatable="false">C</string>
+    <string name="pref_temp_units_fahren" translatable="false">F</string>
+
+    <string name="pref_currency_label">Currency</string>
+    <string name="pref_currency_key" translatable="false">currency</string>
+    <string name="pref_currency_euros" translatable="false">€</string>
+    <string name="pref_currency_dollars" translatable="false">$</string>
+
+    <string name="pref_language_label">Language</string>
+    <string name="pref_language_key" translatable="false">language</string>
+    <string name="pref_language_english" translatable="false">En</string>
+    <string name="pref_language_greek" translatable="false">El</string>
+
+    <string-array name="pref_temp_units_entries">
+        <item>Celcius (Metric)</item>
+        <item>Fahrenheit (Imperial)</item>
+    </string-array>
+
+    <string-array name="pref_temp_units_entryValues">
+        <item>C</item>
+        <item>F</item>
+    </string-array>
+
+    <string-array name="pref_currency_entries">
+        <item>Euros (€)</item>
+        <item>Dollars ($)</item>
+    </string-array>
+
+    <string-array name="pref_currency_entryValues">
+        <item>EUR€</item>
+        <item>USD$</item>
+    </string-array>
+
+
+
+    <string-array name="pref_language_entries">
+        <item>English (En)</item>
+        <item>Ελληνικά (El)</item>
+    </string-array>
+
+    <string-array name="pref_language_entryValues">
+        <item>En</item>
+        <item>El</item>
+    </string-array>
+
+</resources>

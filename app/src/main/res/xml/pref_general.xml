@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditTextPreference
+        android:title="@string/pref_nor_label"
+        android:key="@string/pref_nor_key"
+        android:defaultValue="@string/pref_nor_default"
+        android:inputType="text"
+        android:singleLine="true"
+        ></EditTextPreference>
+
+    <ListPreference
+        android:key="@string/pref_language_key"
+        android:title="@string/pref_language_label"
+        android:defaultValue="@string/pref_language_english"
+        android:entries="@array/pref_language_entries"
+        android:entryValues="@array/pref_language_entryValues">
+    </ListPreference>
+
+    <ListPreference
+        android:key="@string/pref_temp_units_key"
+        android:title="@string/pref_temp_units_label"
+        android:defaultValue="@string/pref_temp_units_celcius"
+        android:entries="@array/pref_temp_units_entries"
+        android:entryValues="@array/pref_temp_units_entryValues">
+        ></ListPreference>
+    <ListPreference
+        android:key="@string/pref_currency_key"
+        android:title="@string/pref_currency_label"
+        android:defaultValue="@string/pref_currency_euros"
+        android:entries="@array/pref_currency_entries"
+        android:entryValues="@array/pref_currency_entryValues">
+        ></ListPreference>
+
+</PreferenceScreen>

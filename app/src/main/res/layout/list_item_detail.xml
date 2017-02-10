@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeight">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_item_textview_airline"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:background="@color/yellowDarker"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_item_textview_origin"
+        android:textSize="18sp"
+        android:gravity="center_horizontal"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:layout_width="17dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/down_arrow"
+            android:id="@+id/down_arrow"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_item_textview_time_start"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/down_arrow"
+            android:paddingRight="20dp"
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_item_textview_time_finish"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/down_arrow"
+            android:paddingLeft="20dp"
+            android:textSize="18sp"/>
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_item_textview_dest"
+        android:textSize="18sp"
+        android:gravity="center_horizontal"/>
+
+
+</LinearLayout>
